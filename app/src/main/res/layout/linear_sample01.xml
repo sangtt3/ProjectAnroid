@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="button "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="button 01"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="button 02"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="button 03"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="button 04"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <ImageView
+        android:id="@+id/Img01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/img_logoimic" />
+
+    <EditText
+
+        android:id="@+id/Et01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/spr_hcnviencam"
+        android:hint="Tên đăng nhập"
+        android:layout_margin="3dp"
+        android:layout_below="@+id/Img01"
+        android:layout_alignEnd="@+id/Et02" />
+
+    <EditText
+        android:id="@+id/Et02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/Et01"
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"
+        android:background="@drawable/spr_hcnviencam"
+        android:hint="Mật khẩu" />
+
+    <Button
+        android:id="@+id/btnDangnhap"
+        style="@style/whitetext"
+        android:layout_below="@id/Et02"
+        android:layout_centerInParent="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="  Đăng nhập  " />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spr_buttonvienden"
+        android:drawableStart="@mipmap/ic_facebook"
+        android:text="Facebook"
+        android:layout_margin="3dp"
+        android:layout_alignBaseline="@+id/btnGoogle"
+        android:layout_alignBottom="@+id/btnGoogle"
+        android:layout_alignStart="@+id/Et02" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDangnhap"
+        android:layout_margin="3dp"
+        android:layout_toRightOf="@id/btnFacebook"
+        android:background="@drawable/spr_buttonvienden"
+        android:drawableStart="@mipmap/ic_googleplus"
+        android:text="Google+" />
+
+    <TextView
+        android:id="@+id/txtQuenmatkhau"
+        style="@style/centerblacktext"
+        android:layout_below="@id/btnFacebook"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:text="Quên mật khẩu ?" />
+
+    <TextView
+        style="@style/centerblacktext"
+        android:layout_below="@id/txtQuenmatkhau"
+        android:layout_centerInParent="true"
+        android:text="Bạn chưa có tài khoản ? hãy Đăng Ký ngay" />
+
+
+</RelativeLayout>

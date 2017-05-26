@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/Rl01"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="4dp"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            android:id="@+id/txtM"
+            style="@style/baseText"
+            android:text="M"
+            android:textSize="50dp" />
+
+        <TextView
+            style="@style/baseText"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@+id/txtM"
+            android:text="Length Unit Converter Calculation" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Rl01">
+
+        <TextView
+            android:id="@+id/txtLength"
+            style="@style/baseText"
+            android:layout_marginLeft="15dp"
+            android:text="Length Unit Converter Calculation" />
+
+        <TextView
+            android:id="@+id/txtConvertfrom"
+            style="@style/baseText"
+            android:layout_below="@+id/txtLength"
+            android:layout_margin="10dp"
+            android:text="Convert from" />
+
+        <EditText
+            android:id="@+id/Et01"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtConvertfrom"
+            android:layout_margin="3dp"
+            android:background="@drawable/spr_hcnviencam" />
+
+        <TextView
+            android:id="@+id/txtEnter"
+            style="@style/baseText"
+            android:layout_below="@+id/Et01"
+            android:layout_margin="10dp"
+            android:text="Enter a value" />
+
+        <EditText
+            android:id="@+id/Et02"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtEnter"
+            android:layout_margin="3dp"
+            android:background="@drawable/spr_hcnviencam" />
+
+        <TextView
+            android:id="@+id/txtConvertto"
+            style="@style/baseText"
+            android:layout_below="@+id/Et02"
+            android:layout_margin="10dp"
+            android:text="Convert to" />
+
+        <EditText
+            android:id="@+id/Et03"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtConvertto"
+            android:layout_margin="3dp"
+            android:background="@drawable/spr_hcnviencam" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            style="@style/baseText"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Et03"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/spr_buttonnenghiviencam"
+            android:text="calculate" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            style="@style/baseText"
+            android:layout_below="@id/btnCalculate"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:text="Result" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/spr_hcnviencam"
+            android:layout_below="@+id/btnCalculate"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

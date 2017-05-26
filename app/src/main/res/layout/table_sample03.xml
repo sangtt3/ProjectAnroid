@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_green_light">
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Layout Management"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+    <TableRow style="@style/basebutton">
+
+        <Button android:text="Button" />
+
+        <Button android:text="Button" />
+
+        <Button android:text="Button" />
+
+        <Button android:text="Button" />
+    </TableRow>
+
+    <TableRow style="@style/basebutton">
+
+        <Button
+            android:layout_span="2"
+            android:text="Button" />
+
+        <Button android:text="Button" />
+
+        <Button android:text="Button" />
+    </TableRow>
+
+    <TableRow style="@style/basebutton">
+
+        <Button
+            android:layout_span="3"
+            android:text="Button" />
+
+        <Button android:text="Button" />
+    </TableRow>
+
+    <TableRow style="@style/basebutton">
+
+        <Button
+
+            android:layout_span="4"
+            android:text="Button" />
+    </TableRow>
+
+
+</TableLayout>

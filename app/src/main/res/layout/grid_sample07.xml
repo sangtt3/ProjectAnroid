@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgpurple"
+                android:text="BUILT WITH WOOCOMMERCE"
+                android:textSize="15dp" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgbluelight"
+                android:text="CONTACT FORM SEVEN"
+                android:textSize="15dp" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgorange"
+                android:text="CTHEMECOP CUSTOM SLIDER"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebggreen"
+                android:text="CATEGORY MEGAMENU"
+                android:textSize="15dp" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgblack"
+                android:text="CUSTOM SHOP ICONSET"
+                android:textSize="15dp" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgred"
+                android:text="FONTAWESOME ICONSET"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgblue"
+                android:text="WISHLIST COMPATIBLE"
+                android:textSize="15dp" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgorange"
+                android:text="GOOGLE FONT INTERRATED"
+                android:textSize="15dp" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgpurple"
+                android:text="ADVANCED SEARCH ENGINE"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgred"
+                android:text="WIDGET READY"
+                android:textSize="15dp" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebggreen"
+                android:text="TRANSLATION READY"
+                android:textSize="15dp" />
+
+            <Button
+
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgblue"
+                android:text="VALIDATED W3C MARKUP"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</GridLayout>

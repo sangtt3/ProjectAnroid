@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <ImageView
+            android:id="@+id/img01"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/img_long" />
+
+        <TextView
+            android:id="@+id/txt01"
+            style="@style/centerblacktext"
+            android:layout_margin="15dp"
+            android:layout_toRightOf="@id/img01"
+            android:text="NGUYỄN THẾ LONG"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt02"
+            style="@style/centerblacktext"
+            android:layout_below="@+id/txt01"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/img01"
+            android:text="Age: 28"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txt03"
+            style="@style/centerblacktext"
+            android:layout_below="@+id/txt02"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/img01"
+            android:text="Mobile: 0936.281.873"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txt04"
+            style="@style/centerblacktext"
+            android:layout_below="@+id/txt03"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/img01"
+            android:text="Email: Longgame1989@gmail.com"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:layout_weight="4.5"
+        android:background="@drawable/spr_vienghinentrang">
+
+        <TextView
+            android:id="@+id/txt05"
+            style="@style/centerblacktext"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="8dp"
+            android:text="Education :"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/txt06"
+            style="@style/centerblacktext"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/txt05"
+            android:gravity="left"
+            android:text="- Graduated CommercieUniversity.\nCertiface B English, B Microsoft Office, B Imic Education."
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt07"
+            style="@style/centerblacktext"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/txt05"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="38dp"
+            android:text="Skills :"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/txt08"
+            style="@style/centerblacktext"
+            android:layout_below="@id/txt06"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/txt07"
+            android:gravity="left"
+            android:text="- Good teamwork skill and ability to work unfer pressure.\n- Ability to adapt with new work environment and work flow.\n- Ability to work on multiple tasks and meet tight deadlines.\n- Responsible, careful, active and creative in work.\n- Honet, friendly and ready to learn new things."
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt09"
+            style="@style/centerblacktext"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/txt07"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="164dp"
+            android:text="Experience:"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_below="@id/txt08"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/txt07"
+            android:gravity="left"
+            android:text="- Working at medical company 247 fours years.\n- Having experience for supporting and managing in some projects and coursera's education projects "
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/txtChonloaitinao"
+        style="@style/centerblacktext"
+        android:layout_margin="10dp"
+        android:text="Chọn loại tin rao :"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/Rg01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtChonloaitinao">
+
+        <RadioButton
+            style="@style/centerblacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin Thường" />
+
+        <RadioButton
+            style="@style/centerblacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin Vip 2" />
+
+        <RadioButton
+            style="@style/centerblacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin Vip 1" />
+
+        <RadioButton
+            style="@style/centerblacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin Vip Pro" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtThoigiandang"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/Rg01"
+        android:layout_margin="10dp"
+        android:text="Thời gian đăng :"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Et01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtThoigiandang"
+        android:layout_margin="5dp"
+        android:background="@drawable/spr_vienghinentrang" />
+
+    <TextView
+        android:id="@+id/txtUptintudong"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/Et01"
+        android:layout_margin="10dp"
+        android:text="Up tin tự động :"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Et01"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/txtThanhtien"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/txtUptintudong"
+        android:layout_margin="10dp"
+        android:text="Thành tiền : 0 Vnd" />
+
+    <Button
+        style="@style/whitetext"
+        android:layout_below="@+id/txtThanhtien"
+        android:layout_centerInParent="true"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="  Lưu và tiếp tục  " />
+
+</RelativeLayout>

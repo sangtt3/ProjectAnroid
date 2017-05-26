@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/Rl01"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_centerInParent="true"
+            android:text="FACEBOOK" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Rl02"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@+id/Rl01"
+        android:background="@android:color/holo_green_dark">
+
+        <ImageView
+            android:id="@+id/img01"
+            style="@style/baseImage"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/img_avatar07" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Rl02">
+
+
+        <EditText
+            android:id="@+id/Et01"
+            style="@style/baseText"
+            android:layout_width="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:hint="UserName" />
+
+        <EditText
+            android:id="@+id/Et02"
+            style="@style/baseText"
+            android:layout_width="250dp"
+            android:layout_below="@id/Et01"
+            android:layout_centerInParent="true"
+            android:hint="PassWord" />
+
+        <CheckBox
+            android:id="@+id/CB01"
+            style="@style/baseText"
+            android:layout_below="@id/Et02"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:text="remember me" />
+
+        <TextView
+            style="@style/baseText"
+            android:layout_below="@id/CB01"
+            android:layout_centerInParent="true"
+            android:text="forgot password ?"
+            android:textColor="@android:color/holo_red_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSignUp"
+                style="@style/basebutton"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@drawable/spr_buttonnenghiviencam"
+                android:text="Sign up" />
+
+            <Button
+                style="@style/basebutton"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/btnSignUp"
+                android:layout_weight="1"
+                android:background="@drawable/spr_buttonnenghiviencam"
+                android:text="Login" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

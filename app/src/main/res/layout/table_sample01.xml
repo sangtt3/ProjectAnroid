@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:stretchColumns="*">
+
+
+    <TableRow
+        android:layout_height="80dp"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="This is Row 1"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@android:color/holo_green_light"
+        android:weightSum="3">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Row 2 Column-1" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Row 2 Column-2" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Row 2 Column-3" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light"
+        android:weightSum="3">
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Row 3 Column-1" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Row 3 Column-2" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Row 3 Column-3" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@android:color/holo_red_light"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Row 4 Column-1" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Row 4 Column-2" />
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:layout_height="80dp"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="This is Row 5"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+</TableLayout>
+

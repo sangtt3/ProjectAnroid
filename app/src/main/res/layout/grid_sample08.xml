@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgorange"
+                android:drawableBottom="@mipmap/ic_favorites"
+                android:text="Make a Call" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgbluelight"
+                android:drawableTop="@mipmap/ic_launcher_round"
+                android:text="My Favorites" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgblack"
+                android:drawableTop="@mipmap/ic_launcher_round"
+                android:text="Recent Calls" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgpurple"
+                android:drawableTop="@mipmap/ic_launcher_round"
+                android:text="Video Mail" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebggreen"
+                android:drawableTop="@mipmap/ic_launcher_round"
+                android:text="More Features" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgblue"
+                android:text="Need Help ?" />
+
+            <Button
+                style="@style/whitetext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_whitestrokebgred"
+                android:text="Call 911" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</GridLayout>

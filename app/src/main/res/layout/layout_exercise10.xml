@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtThongtinlienlac"
+        style="@style/centerblacktext"
+        android:layout_margin="10dp"
+        android:text="Thông tin liên lạc :"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtHoten"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/txtThongtinlienlac"
+        android:layout_marginLeft="10dp"
+        android:text="Họ tên * :" />
+
+    <EditText
+        android:id="@+id/Et01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtHoten"
+        android:layout_margin="5dp"
+        android:background="@drawable/spr_vienghinentrang" />
+
+    <TextView
+        android:id="@+id/txtDiachi"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/Et01"
+        android:layout_marginLeft="10dp"
+        android:text="Địa chỉ * :" />
+
+    <EditText
+        android:id="@+id/Et02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtDiachi"
+        android:layout_margin="5dp"
+        android:background="@drawable/spr_vienghinentrang" />
+
+    <TextView
+        android:id="@+id/txtTinhthanhpho"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/Et02"
+        android:layout_marginLeft="10dp"
+        android:text="Tỉnh/Thành phố * :" />
+
+    <EditText
+        android:id="@+id/Et03"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtTinhthanhpho"
+        android:layout_margin="5dp"
+        android:background="@drawable/spr_vienghinentrang" />
+
+    <TextView
+        android:id="@+id/txtSodienthoai"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/Et03"
+        android:layout_marginLeft="10dp"
+        android:text="Số điện thoại * :" />
+
+    <EditText
+        android:id="@+id/Et04"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtSodienthoai"
+        android:layout_margin="5dp"
+        android:background="@drawable/spr_vienghinentrang" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/Et04"
+        android:layout_marginLeft="10dp"
+        android:text="Email :" />
+
+    <EditText
+        android:id="@+id/Et05"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtEmail"
+        android:layout_margin="5dp"
+        android:background="@drawable/spr_vienghinentrang" />
+
+    <RadioButton
+        android:id="@+id/Rb01"
+        style="@style/centerblacktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Et05"
+        android:text="Nhận Email phản hồi" />
+
+    <Button
+        android:id="@+id/btnXemtruoc"
+        style="@style/whitetext"
+        android:layout_below="@+id/Rb01"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/spr_nenxanhduongvienden"
+        android:text="  Xem trước  " />
+
+    <Button
+        style="@style/whitetext"
+        android:layout_width="200dp"
+        android:layout_below="@+id/Rb01"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/btnXemtruoc"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="  Lưu và tiếp tục  " />
+
+
+</RelativeLayout>

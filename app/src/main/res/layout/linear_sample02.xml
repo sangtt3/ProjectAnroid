@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/txtTo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/spr_edittext"
+        android:text="To :" />
+
+    <EditText
+        android:id="@+id/txtSubject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/spr_edittext"
+        android:text="Subject Name :" />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/spr_edittext"
+        android:text="Message :" />
+
+    <Button
+        android:id="@+id/btnSendMail"
+        style="@style/basebutton"
+        android:layout_gravity="end"
+        android:layout_margin="5dp"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="  SEND MAIL  "
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

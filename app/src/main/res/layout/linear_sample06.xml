@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnHelloWorld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World" />
+
+    <Button
+        android:id="@+id/btnXinChaoTheGioi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end|center"
+        android:text="Xin Chao The Gioi" />
+
+    <Button
+        android:id="@+id/btnBonJour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BonJour" />
+
+    <Button
+        android:id="@+id/btnSample01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample01" />
+
+    <Button
+        android:id="@+id/btnSample02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sample02" />
+
+    <Button
+        android:id="@+id/btbSample03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Sample03" />
+
+</LinearLayout>

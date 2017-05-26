@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/txtHinhanh"
+        style="@style/baseText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/spr_vienghinentrang"
+        android:gravity="center_vertical|left"
+        android:text="Hình ảnh"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img01"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/txtHinhanh"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:src="@mipmap/ic_addphoto" />
+
+    <TextView
+        android:id="@+id/txtTaianhlen"
+        style="@style/centerblacktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img01"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp"
+        android:text="Tải ảnh lên"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <LinearLayout
+        android:id="@+id/Ln01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTaianhlen"
+        android:background="@drawable/spr_vienghinentrang"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/txtChebienso"
+            style="@style/centerblacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:text="Che biển số :"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/RgChebienso"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtVideo"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/Ln01"
+        android:layout_margin="5dp"
+        android:text="Video :" />
+
+    <EditText
+        android:id="@+id/etNhaplink"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtVideo"
+        android:layout_margin="3dp"
+        android:background="@drawable/spr_vienghinentrang"
+        android:hint="Nhập link video của bạn" />
+
+    <TextView
+        android:id="@+id/txtThongtinmota"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/etNhaplink"
+        android:layout_margin="5dp"
+        android:text="Thông tin mô tả :" />
+
+    <TextView
+        android:id="@+id/txtHangxe"
+        style="@style/baseText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/txtThongtinmota"
+        android:layout_margin="3dp"
+        android:background="@drawable/spr_vienghinentrang"
+        android:gravity="center_vertical"
+        android:text="Hãng xe* :                                                     >" />
+
+    <TextView
+        android:id="@+id/txtLoaixe"
+        style="@style/baseText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/txtHangxe"
+        android:layout_margin="3dp"
+        android:background="@drawable/spr_vienghinentrang"
+        android:gravity="center_vertical"
+        android:text="Loại xe* :                                                       >" />
+
+    <TextView
+        android:id="@+id/txtNamsanxuat"
+        style="@style/baseText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/txtLoaixe"
+        android:layout_margin="3dp"
+        android:background="@drawable/spr_vienghinentrang"
+        android:gravity="center_vertical"
+        android:text="Năm sản xuất* :                                           >" />
+
+
+</RelativeLayout>

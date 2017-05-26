@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="6">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                style="@style/centerblacktext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_blackstrokebgblue"
+                android:drawableEnd="@mipmap/ic_launcher_round"
+                android:text="Profile"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/centerblacktext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_blackstrokebgpurple"
+                android:drawableEnd="@mipmap/ic_kinhlup"
+                android:text="Search Jops"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/centerblacktext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_blackstrokebggreen"
+                android:drawableEnd="@mipmap/ic_bell"
+                android:text="Notification"
+                android:textColor="@android:color/white"
+                android:textSize="19sp" />
+
+            <Button
+                style="@style/centerblacktext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_blackstrokebgorange"
+                android:drawableEnd="@mipmap/ic_message"
+                android:text="Messages"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                style="@style/centerblacktext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_blackstrokebgred"
+                android:drawableEnd="@mipmap/ic_star"
+                android:text="Rate Card"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:drawableEnd="@mipmap/ic_bantay"
+                style="@style/centerblacktext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spr_blackstrokebgblue"
+                android:text="Reviews And Ratings"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</GridLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt01"
+        style="@style/centerblacktext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/spr_hcnviencam"
+        android:gravity="start|center"
+        android:text="Sắp xếp tin rao           Thông thường >" />
+
+    <TextView
+        android:id="@+id/txt02"
+        style="@style/centerblacktext"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txt01"
+        android:layout_margin="10dp"
+        android:text="Khoảng giá:" />
+
+    <TextView
+        style="@style/centerblacktext"
+        android:layout_below="@+id/txt01"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/txt02"
+        android:text="Tất cả"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/txt03"
+        style="@style/centerblacktext"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txt02"
+        android:layout_margin="10dp"
+        android:text="Năm sản xuất:" />
+
+    <TextView
+        style="@style/centerblacktext"
+        android:layout_below="@+id/txt02"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/txt03"
+        android:text="Tất cả"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/txt04"
+        style="@style/centerblacktext"
+        android:layout_below="@id/txt03"
+        android:layout_margin="10dp"
+        android:text="Tình trạng :                  Mới                 Cũ" />
+
+    <TextView
+        android:id="@+id/txt05"
+        style="@style/centerblacktext"
+        android:layout_below="@id/txt04"
+        android:layout_margin="10dp"
+        android:text="Xuất xứ :            Trong nước     Nhập khẩu" />
+
+    <TextView
+        android:id="@+id/txt06"
+        style="@style/centerblacktext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt05"
+        android:layout_margin="10dp"
+        android:background="@drawable/spr_hcnviencam"
+        android:gravity="start|center"
+        android:text="Nhiên Liệu :                              Tất cả >" />
+
+    <TextView
+
+        android:id="@+id/txt07"
+        style="@style/centerblacktext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt06"
+        android:layout_margin="10dp"
+        android:background="@drawable/spr_hcnviencam"
+        android:gravity="start|center"
+        android:text="Hộp Số :                                    Tất cả >" />
+
+    <TextView
+
+        android:id="@+id/txt08"
+        style="@style/centerblacktext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt07"
+        android:layout_margin="10dp"
+        android:background="@drawable/spr_hcnviencam"
+        android:gravity="start|center"
+        android:text="Tỉnh/Thành Phố:             Toàn Quốc >" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt08"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/spr_nenghi"
+            android:text="Bỏ Chọn" />
+
+        <Button
+            style="@style/centerblacktext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2.5"
+            android:background="@drawable/spr_nenxanh"
+            android:text="Lọc" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

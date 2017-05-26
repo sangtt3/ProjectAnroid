@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt01"
+        style="@style/centerblacktext"
+        android:layout_margin="10dp"
+        android:text="Hãy nhập email bạn đã đăng ký với Banxehoi.com. Chúng tôi sẽ gửi email lấy lại mật khẩu tới hòm thư của bạn. Vui lòng kiểm tra cả hòm thư Spam. " />
+
+    <TextView
+        android:id="@+id/txt02"
+        style="@style/centerblacktext"
+        android:layout_below="@+id/txt01"
+        android:layout_margin="15dp"
+        android:text="Vui lòng nhập đúng hòm thư của bạn :" />
+
+    <EditText
+        android:id="@+id/Et01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt02"
+        android:layout_margin="5dp"
+        android:background="@drawable/spr_hcnviencam" />
+
+    <Button
+        style="@style/whitetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et01"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/spr_buttonnenxanhvienden"
+        android:text="  Lấy lại mật khẩu  " />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/alfa_romeo" />
+
+        <TextView
+
+            android:id="@+id/txt01"
+            style="@style/centerblacktext"
+            android:layout_alignParentTop="true"
+            android:layout_margin="26dp"
+            android:text="Alfa_romeo"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:text="19.376 tin rao"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_margin="25dp"
+            android:layout_alignBaseline="@+id/txt01"
+            android:layout_alignBottom="@+id/txt01"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/audi" />
+
+        <TextView
+            android:id="@+id/txt02"
+            style="@style/centerblacktext"
+            android:layout_alignParentTop="true"
+            android:layout_margin="26dp"
+            android:text="Audi"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_alignParentTop="true"
+            android:layout_margin="25dp"
+            android:layout_toRightOf="@id/txt02"
+            android:text="12.489 tin rao"
+            android:textColor="@android:color/holo_red_dark" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/chevrolet" />
+
+        <TextView
+            android:id="@+id/txt03"
+            style="@style/centerblacktext"
+            android:layout_alignParentTop="true"
+            android:layout_margin="25dp"
+            android:text="Chevrolet"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_alignParentTop="true"
+            android:layout_margin="25dp"
+            android:layout_toRightOf="@id/txt03"
+            android:text="10.658 tin rao"
+            android:textColor="@android:color/holo_red_dark" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

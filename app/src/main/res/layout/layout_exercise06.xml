@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/txt01"
+            style="@style/centerblacktext"
+            android:layout_margin="10dp"
+            android:text="Cadilac 19.528 tin rao             Toàn quốc" />
+
+        <Button
+            style="@style/centerblacktext"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:background="@drawable/spr_buttonnenxanhvientrang"
+            android:text="735 triệu"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/img01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt01"
+            android:src="@mipmap/cadillac" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="16dp"
+            android:background="@drawable/spr_buttonvienden"
+            android:text="14/03/2016"
+            android:textSize="16dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3">
+
+        <TextView
+            android:id="@+id/txt02"
+            style="@style/centerblacktext"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@mipmap/ic_star_vip"
+            android:text="Cadilac 2016 giao ngay giá hấp dẫn khai xuân gọi Cadilac Tuấn Hùng"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/txt03"
+            style="@style/centerblacktext"
+            android:layout_below="@+id/txt02"
+            android:layout_centerInParent="true"
+            android:text="Mới    Trong Nước   TP: HCM" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <ImageView
+            android:id="@+id/img02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/chery" />
+
+        <Button
+            style="@style/centerblacktext"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/spr_buttonnenxanhvientrang"
+            android:text="  2 tỉ 129 triệu "
+            android:textSize="16dp" />
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img02"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@mipmap/ic_star_vip"
+            android:text="  Hùng Cường: Chery đủ màu, giá tốt "
+            android:textColor="@android:color/holo_red_dark" />
+
+    </RelativeLayout>
+</LinearLayout>
