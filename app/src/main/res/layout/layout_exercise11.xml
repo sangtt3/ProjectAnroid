@@ -8,7 +8,9 @@
         android:id="@+id/txtHinhanh"
         style="@style/baseText"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:background="@drawable/spr_vienghinentrang"
         android:gravity="center_vertical|left"
         android:text="Hình ảnh"
@@ -38,7 +40,9 @@
         android:id="@+id/Ln01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtHangxe"
         android:layout_below="@+id/txtTaianhlen"
+        android:layout_margin="1dp"
         android:background="@drawable/spr_vienghinentrang"
         android:orientation="horizontal"
         android:weightSum="3">
@@ -66,12 +70,14 @@
             <RadioButton
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="Có" />
 
             <RadioButton
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="Không" />
 
 
         </RadioGroup>
@@ -87,7 +93,7 @@
     <EditText
         android:id="@+id/etNhaplink"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="35dp"
         android:layout_below="@+id/txtVideo"
         android:layout_margin="3dp"
         android:background="@drawable/spr_vienghinentrang"
@@ -100,38 +106,129 @@
         android:layout_margin="5dp"
         android:text="Thông tin mô tả :" />
 
+
     <TextView
         android:id="@+id/txtHangxe"
         style="@style/baseText"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="30dp"
         android:layout_below="@id/txtThongtinmota"
-        android:layout_margin="3dp"
+        android:layout_margin="1dp"
         android:background="@drawable/spr_vienghinentrang"
         android:gravity="center_vertical"
-        android:text="Hãng xe* :                                                     >" />
+        android:text="Hãng xe * :" />
 
     <TextView
         android:id="@+id/txtLoaixe"
         style="@style/baseText"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="30dp"
         android:layout_below="@id/txtHangxe"
-        android:layout_margin="3dp"
+        android:layout_margin="1dp"
         android:background="@drawable/spr_vienghinentrang"
         android:gravity="center_vertical"
-        android:text="Loại xe* :                                                       >" />
+        android:text="Loại xe * :" />
 
     <TextView
         android:id="@+id/txtNamsanxuat"
         style="@style/baseText"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="30dp"
         android:layout_below="@id/txtLoaixe"
-        android:layout_margin="3dp"
+        android:layout_margin="1dp"
         android:background="@drawable/spr_vienghinentrang"
         android:gravity="center_vertical"
-        android:text="Năm sản xuất* :                                           >" />
+        android:text="Năm sản xuất * :" />
 
+    <LinearLayout
+        android:id="@+id/LnXuatxu"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/txtNamsanxuat"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+
+            style="@style/centerblacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="Xuất xứ: " />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:text="Trong nước" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập khẩu" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LnTinhtrang"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/LnXuatxu"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="Tình trạng: " />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mới" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="47dp"
+                android:text="Cũ" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LnTinhtrang"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/centerblacktext"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/spr_vienghinentrang"
+            android:text="Màu ngoại thất : " />
+
+    </LinearLayout>
 
 </RelativeLayout>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Project Anroid.iml" filepath="$PROJECT_DIR$/Project Anroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/longnguyen_BtLayout.iml" filepath="$PROJECT_DIR$/longnguyen_BtLayout.iml" />
     </modules>
   </component>
 </project>
